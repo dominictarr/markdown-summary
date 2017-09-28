@@ -10,6 +10,12 @@ tape('extract image', function (t) {
   t.ok(img)
   console.log(img)
   t.equal(img, '![internet.jpg](&okCzgiD0I7Fq3xNPA/VQxvv4VMvC00URrql7Vs1wDLo=.sha256)')
+  var title = M.title(image_msg.content.text)
+  var summary = M.summary(image_msg.content.text)
+  t.notOk(summary) //no summary
+  console.log(title)
+  t.equal(title, 'https://substack.neocities.org/igen/')
+
   t.end()
 })
 
@@ -34,5 +40,6 @@ tape('extract title & summary from paragraph', function (t) {
   t.equal(summary,"...I probably won't see your reply for a while yet, but I'm doing some exploring of the SSB ecosystem at the moment :)")
   t.end()
 })
+
 
 

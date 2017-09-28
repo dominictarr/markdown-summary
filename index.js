@@ -1,7 +1,7 @@
 
 
 exports.title = function (source, lineLength) {
-  source = source.trim()
+  source = source.trim().replace(image_rx, '')
   var line = source.trim().split('\n').shift().trim()
   //often people write a title or something as the first line anyway.
   //if they just start writing a paragraph, trim the first line from it.

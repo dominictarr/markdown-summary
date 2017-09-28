@@ -1,0 +1,19 @@
+{
+  "previous": "%OjnRA2nrH3601uddBTOFF5BgtlJ5PVPMGbGjyZKJrQc=.sha256",
+  "author": "@8Qee0I/DwI5DHSCi3p5fsl6FyLGArrnDz3ox9qZr5Qc=.ed25519",
+  "sequence": 3108,
+  "timestamp": 1483029004339,
+  "hash": "sha256",
+  "content": {
+    "type": "post",
+    "channel": "stuckinyourcraw",
+    "text": "**Eliminate email**\n\n[@gb](@ya/sq19NPxRza5xtoqi9BilwLZ7HgQjG3QpcTRnGgWs=.ed25519) said this morning that she's tired of receiving 300 spam messages a day --85% going to her spam folder. \n\nI asked if it was possible to eliminate email altogether now that Secure Scuttlebutt works.\n\nPerhaps having this conversation in public will help us figure out if it is possible to eliminate email in 2017?",
+    "mentions": [
+      {
+        "link": "@ya/sq19NPxRza5xtoqi9BilwLZ7HgQjG3QpcTRnGgWs=.ed25519",
+        "name": "gb"
+      }
+    ]
+  },
+  "signature": "LSDofNOz8Chwn1RW6C5HygvfQaupkecf2MwqdqEJUaXQr2LvV765jyU4kPV4Qt8O70flMvTLoj5RM+MQOyORBw==.sig.ed25519"
+}

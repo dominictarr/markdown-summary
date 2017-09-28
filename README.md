@@ -1,0 +1,6 @@
+# markdown-summary
+
+
+## License
+
+MIT

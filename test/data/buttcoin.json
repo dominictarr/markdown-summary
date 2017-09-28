@@ -1,0 +1,18 @@
+{
+  "previous": "%uwdB1rXJipfT8OUByIk6AD4pTT3Fd42YSsSVIfTFVSs=.sha256",
+  "author": "@FbGoHeEcePDG3Evemrc+hm+S77cXKf8BRQgkYinJggg=.ed25519",
+  "sequence": 2481,
+  "timestamp": 1506554478334,
+  "hash": "sha256",
+  "content": {
+    "type": "post",
+    "channel": "decent-memes",
+    "text": "OMG #buttcoin !!!\n\nDid a search on ssb and no one has thought of this before. But it is actually [a satirical cryptocurrency on reddit](https://www.reddit.com/r/Buttcoin/)!",
+    "mentions": [
+      {
+        "link": "#buttcoin"
+      }
+    ]
+  },
+  "signature": "WjpWwFUqnW4wZbERxm1+k76Jg7iIii/hAzWPmC7ap3irsHCVRckGjzC7oH1I8PmnJLJXGpDYx8xP7l3Rr4hpAw==.sig.ed25519"
+}

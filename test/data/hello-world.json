@@ -1,0 +1,14 @@
+{
+  "previous": "%2tUfCHTv638h+7hDrknfoO7m1FBNyu3rAByeCQ3bZCA=.sha256",
+  "author": "@+rvxSq6XB/57QxgA2rWqOQbVo90o+wHAY0N06HYSLPo=.ed25519",
+  "sequence": 5,
+  "timestamp": 1506418484822,
+  "hash": "sha256",
+  "content": {
+    "type": "post",
+    "channel": "new-people",
+    "text": "Hello world! Glad to be here. My client is taking an age to sync with this pub so I probably won't see your reply for a while yet, but I'm doing some exploring of the SSB ecosystem at the moment :)",
+    "mentions": []
+  },
+  "signature": "W1gFNw9LRMwcOqTmOU36D73bxRj2c7Rq0oCl1MZ6/oAr+Df1bFMZT2EQ2Oaqaia4gkQUS+WSDaguI6j9WVWTAA==.sig.ed25519"
+}

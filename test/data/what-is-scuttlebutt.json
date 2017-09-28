@@ -1,0 +1,14 @@
+{
+  "previous": "%4cYifUuz6QVbpGmIF0IiyK/ph9izzroULPdVNzOAYzs=.sha256",
+  "author": "@DIoOBMaI1f0mJg+5tUzZ7vgzCeeHh8+zGta4pOjc+k0=.ed25519",
+  "sequence": 449,
+  "timestamp": 1506415789336,
+  "hash": "sha256",
+  "content": {
+    "type": "post",
+    "channel": "scuttlebutt",
+    "text": "# What is scuttlebutt?\n\n_I got some feedback that my post about Safety in a P2P social network was, but didn't say what scuttlebutt was or how it's p2p. This is a constant tension I feel - how do I tell parts of the story without grilling readers / listeners for a full half hour_\n\nTonight I think I nailed it - a coder at pottery class asked \"what is scuttlebutt?\"\n\nIt's three things: \n1. **No-one has to sign up anywhere** - you get a key key-pair which lets you write things and sign them with your unique name, so you can publish your own stuff\n2. **Messages are passed among friends** - when you write something, I don't have to find out from you, I could find out from a mutual friend. Because it was signed by you when you authored it, I know it came from you.\n3 **Content addressable storage** - each message has a totally unique id code, which means you can reference messages in your messages, which means you can reply to things other people have said.\n\nThis is the basis for forming all manner of things, from twitter, to chess, to code synschonisation.\n\nI don't expect this to be perfect. But iteration in storytelling breeds stronger stories. I've been iterating on this one for 2 years now I think. Would love to hear how you tell the story. I try to hide detail by doing things like including actual names of shared friends, and thereby baking in the friendship / gossip / trust / how the p2p actually works.\n\n\nInteresting an irish guy in my class was talking about how part of the art of a good story is cutting out the _chaff_, but that **master** storytellers know to cut different _chaff_ depending on the audience (and the mood, and the location, and the light)",
+    "mentions": []
+  },
+  "signature": "yjvolY6b1DFpyZX4BKszIgFpoZFOsHLNKw17Cn6UQMfvokcbeRxHGOaEILlAna6+B1P2Pngby8CxDQSOtH74Cg==.sig.ed25519"
+}

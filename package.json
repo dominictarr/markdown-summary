@@ -1,6 +1,6 @@
 {
   "name": "markdown-summary",
-  "description": "",
+  "description": "extract summary/preview text from markdown",
   "version": "1.0.0",
   "homepage": "https://github.com/dominictarr/markdown-summary",
   "repository": {

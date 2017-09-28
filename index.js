@@ -13,9 +13,10 @@ exports.title = function (source, lineLength) {
   else
     return title
 }
+var image_rx = /(\!\[[^\]]+\]\([^\)]+\))/g
 
 exports.summary = function (source, lineLength) {
-  source = source.trim()
+  source = source.trim().replace(image_rx, '')
   var title = exports.title(source, lineLength)
 
   var lines = source.trim().split('\n')
@@ -32,7 +33,7 @@ exports.summary = function (source, lineLength) {
 }
 
 exports.image = function (source) {
-  var m = /(\!\[[^\]]+\]\([^\)]+\))/.exec(source)
+  var m = image_rx.exec(source)
   return m && m[1]
 }
 

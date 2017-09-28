@@ -2,7 +2,7 @@ var M = require('../')
 var image_msg = require('./data/WebGL-tm.json')
 var title_p = require('./data/eliminate-email.json')
 var hello = require('./data/hello-world.json')
-
+var dogs = require('./data/two-dogs.json')
 var tape = require('tape')
 
 tape('extract image', function (t) {
@@ -16,6 +16,16 @@ tape('extract image', function (t) {
   console.log(title)
   t.equal(title, 'https://substack.neocities.org/igen/')
 
+  t.end()
+})
+
+tape('image does not appear in title', function (t) {
+  var img = M.image(dogs.content.text)
+  var summary = M.summary(dogs.content.text)
+  var title = M.title(dogs.content.text)
+  t.ok(img)
+  t.notOk(summary)
+  t.notOk(title)
   t.end()
 })
 
